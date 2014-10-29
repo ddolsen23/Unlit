@@ -1,0 +1,471 @@
+Log file open, 10/28/14 14:41:40
+LogInit:Display: Running engine for game: Unlit
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.28-18.41.40:433][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.28-18.41.40:470][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.28-18.41.40:485][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.28-18.41.40:491][  0]LogInit: Object subsystem initialized
+[2014.10.28-18.41.40:492][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.28-18.41.40:492][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.28-18.41.40:502][  0]LogInit: Computer: DAVID
+[2014.10.28-18.41.40:502][  0]LogInit: User: David
+[2014.10.28-18.41.40:503][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.10.28-18.41.40:503][  0]LogInit: High frequency timer resolution =2.338342 MHz
+[2014.10.28-18.41.40:503][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.10.28-18.41.40:503][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.28-18.41.40:503][  0]LogMemory: Process Physical Memory: 59.93 MB used, 60.05 MB peak
+[2014.10.28-18.41.40:503][  0]LogMemory: Process Virtual Memory: 36.03 MB used, 36.17 MB peak
+[2014.10.28-18.41.40:504][  0]LogMemory: Physical Memory: 2744.32 MB used, 8075.16 MB total
+[2014.10.28-18.41.40:504][  0]LogMemory: Virtual Memory: 268.94 MB used, 134217728.00 MB total
+[2014.10.28-18.41.40:528][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2014.10.28-18.41.40:528][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2014.10.28-18.41.40:530][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.28-18.41.40:530][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.28-18.41.40:530][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.28-18.41.40:535][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2014.10.28-18.41.40:549][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.28-18.41.40:655][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.28-18.41.42:424][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.28-18.41.42:999][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.28-18.41.43:062][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.28-18.41.43:109][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/David/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.28-18.41.43:109][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.28-18.41.43:109][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/David/Documents/Unreal Projects/Unlit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.28-18.41.43:109][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.28-18.41.43:127][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.28-18.41.43:141][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.28-18.41.43:359][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.28-18.41.43:359][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.28-18.41.43:832][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.28-18.41.44:874][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_344_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_7fc_0///////STATCAT_Advanced////
+[2014.10.28-18.41.44:874][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.28-18.41.45:035][  0]SourceControl: Info Source control is disabled
+[2014.10.28-18.41.45:036][  0]SourceControl: Info Source control is disabled
+[2014.10.28-18.41.45:048][  0]SourceControl: Info Source control is disabled
+[2014.10.28-18.41.45:321][  0]BlueprintLog: New page: Editor Load
+[2014.10.28-18.41.45:496][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.28-18.41.45:496][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.28-18.41.45:682][  0]LogEngine: Initializing Engine...
+[2014.10.28-18.41.45:810][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.28-18.41.45:933][  0]LogInit: FAudioDevice initialized.
+[2014.10.28-18.41.45:961][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.28-18.41.45:984][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/David/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.28-18.41.45:989][  0]LogInit: Texture streaming: Enabled
+[2014.10.28-18.41.46:044][  0]LogInit: Transaction tracking system initialized
+[2014.10.28-18.41.46:232][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2014.10.28-18.41.46:992][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.28-18.41.47:436][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.28-18.41.47:660][  0]LogConsoleResponse:Display: 
+[2014.10.28-18.41.47:939][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1244_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_7fc_0///////STATCAT_Advanced////
+[2014.10.28-18.41.47:939][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_b8c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_7fc_0///////STATCAT_Advanced////
+[2014.10.28-18.41.47:939][  0]SourceControl: Info Source control is disabled
+[2014.10.28-18.41.47:940][  0]Cmd: MAP LOAD FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.28-18.41.47:940][  0]LightingResults: New page: Lighting Build
+[2014.10.28-18.41.47:955][  0]MapCheck: New page: Map Check
+[2014.10.28-18.41.47:955][  0]LightingResults: New page: Lighting Build
+[2014.10.28-18.41.47:969][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0ED0C9300
+[2014.10.28-18.41.48:020][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.28-18.41.48:020][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.41.48:021][  0]Cmd: MAP CHECKDEP
+[2014.10.28-18.41.48:021][  0]MapCheck: New page: Example_Map - Oct 28, 2014, 10:41:48 AM
+[2014.10.28-18.41.48:204][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [183.469ms] ==========
+[2014.10.28-18.41.48:204][  0]LogFileHelpers: Loading map 'Example_Map' took 0.265
+[2014.10.28-18.41.48:362][  0]LogCollectionManager: Loaded 0 collections in 0.001359 seconds
+[2014.10.28-18.41.48:382][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.28-18.41.48:479][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.28-18.41.48:553][  0]LogLoad: Full Startup: 10.35 seconds (BP compile: 0.00 seconds)
+[2014.10.28-18.41.48:821][  0]LogRenderer:Warning: Reallocating scene render targets to support 912x688.
+[2014.10.28-18.41.49:348][  2]LogAssetRegistry: Asset discovery search completed in 3.1278 seconds
+[2014.10.28-18.41.56:967][315]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.28-18.42.00:354][451]BlueprintLog:Warning: Warning Blueprint MyProjectile has been migrated and requires re-saving to avoid import errors
+[2014.10.28-18.42.19:577][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.10.28-18.42.23:001][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.10.28-18.43.19:058][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.10.28-18.43.19:189][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyProjectile" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Blueprints/MyProjectile.uasset" SILENT=true
+[2014.10.28-18.43.19:624][667]LogSavePackage: Save=415.282715ms
+[2014.10.28-18.43.19:624][667]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/MyProjectile4146EFD74006CBE0872910AB43AE0D4C.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Blueprints/MyProjectile.uasset'
+[2014.10.28-18.43.19:654][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/SM_Projectile" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Character/SM_Projectile.uasset" SILENT=true
+[2014.10.28-18.43.19:910][667]LogSavePackage: Save=242.866104ms
+[2014.10.28-18.43.19:910][667]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/SM_Projectile2939F6BF44E9C24AFADA19A92A37007A.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Character/SM_Projectile.uasset'
+[2014.10.28-18.43.45:211][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.10.28-18.43.48:790][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.10.28-18.43.48:879][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyProjectile" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Blueprints/MyProjectile.uasset" SILENT=true
+[2014.10.28-18.43.49:360][746]LogSavePackage: Save=463.702057ms
+[2014.10.28-18.43.49:361][746]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/MyProjectile098C3C924847BF83C1A3CD9144067429.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Blueprints/MyProjectile.uasset'
+[2014.10.28-18.44.17:139][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.10.28-18.44.19:304][468]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.10.28-18.44.31:504][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.10.28-18.44.49:539][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.10.28-18.44.49:643][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyProjectile" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Blueprints/MyProjectile.uasset" SILENT=true
+[2014.10.28-18.44.50:077][184]LogSavePackage: Save=419.443787ms
+[2014.10.28-18.44.50:077][184]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/MyProjectileE5BA340946E9AB3ED43866AF0F657B62.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Blueprints/MyProjectile.uasset'
+[2014.10.28-18.45.01:258][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2014.10.28-18.45.07:322][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2014.10.28-18.45.13:189][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2014.10.28-18.45.14:263][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
+[2014.10.28-18.45.15:480][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_13) Not registered. Aborting.
+[2014.10.28-18.45.21:995][942]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_14) Not registered. Aborting.
+[2014.10.28-18.45.27:310][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_15) Not registered. Aborting.
+[2014.10.28-18.45.27:412][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyProjectile" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Blueprints/MyProjectile.uasset" SILENT=true
+[2014.10.28-18.45.27:842][ 67]LogSavePackage: Save=416.009705ms
+[2014.10.28-18.45.27:842][ 67]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/MyProjectileD5949D46464296ADFA0C07838BC8498C.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Blueprints/MyProjectile.uasset'
+[2014.10.28-18.45.29:164][ 98]BlueprintLog: New page: Compile MyProjectile
+[2014.10.28-18.45.29:288][ 98]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_16) Not registered. Aborting.
+[2014.10.28-18.45.29:343][ 98]BlueprintEditorCompileResults: Info [0230.99] Compile of MyProjectile successful! [in 6 ms]
+[2014.10.28-18.45.33:889][209]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.45.33:889][209]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:45:33 AM)
+[2014.10.28-18.45.33:956][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066088s)
+[2014.10.28-18.45.33:957][209]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2014.10.28-18.45.33:957][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.067275s)
+[2014.10.28-18.45.34:254][209]BlueprintLog:Warning: Warning Blueprint MyCharacter has been migrated and requires re-saving to avoid import errors
+[2014.10.28-18.45.34:254][209]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.10.28-18.45.34:255][209]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.28-18.45.34:256][209]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.45.34:258][209]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.45.34:260][209]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.45.34
+[2014.10.28-18.45.34:260][209]LogWorld: Bringing up level for play took: 0.002122
+[2014.10.28-18.45.34:263][209]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.232
+[2014.10.28-18.46.34:125][646]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_17) Not registered. Aborting.
+[2014.10.28-18.46.34:125][646]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.28-18.46.52:655][394]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0E09DB6A0
+[2014.10.28-18.46.57:574][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2014.10.28-18.46.59:595][562]Cmd: DELETE
+[2014.10.28-18.46.59:596][562]Cmd: ACTOR DELETE
+[2014.10.28-18.46.59:610][562]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.46.59:655][562]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2014.10.28-18.47.00:265][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube16)
+[2014.10.28-18.47.00:397][580]Cmd: DELETE
+[2014.10.28-18.47.00:397][580]Cmd: ACTOR DELETE
+[2014.10.28-18.47.00:398][580]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.00:434][580]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2014.10.28-18.47.00:925][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2014.10.28-18.47.01:009][594]Cmd: DELETE
+[2014.10.28-18.47.01:009][594]Cmd: ACTOR DELETE
+[2014.10.28-18.47.01:010][594]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.01:051][594]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2014.10.28-18.47.01:531][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
+[2014.10.28-18.47.01:616][608]Cmd: DELETE
+[2014.10.28-18.47.01:616][608]Cmd: ACTOR DELETE
+[2014.10.28-18.47.01:617][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.01:652][608]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2014.10.28-18.47.02:173][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2014.10.28-18.47.02:299][624]Cmd: DELETE
+[2014.10.28-18.47.02:300][624]Cmd: ACTOR DELETE
+[2014.10.28-18.47.02:301][624]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.02:337][624]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2014.10.28-18.47.02:776][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
+[2014.10.28-18.47.02:920][638]Cmd: DELETE
+[2014.10.28-18.47.02:920][638]Cmd: ACTOR DELETE
+[2014.10.28-18.47.02:922][638]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.02:960][638]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2014.10.28-18.47.03:642][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube10)
+[2014.10.28-18.47.03:757][657]Cmd: DELETE
+[2014.10.28-18.47.03:757][657]Cmd: ACTOR DELETE
+[2014.10.28-18.47.03:758][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.03:809][657]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2014.10.28-18.47.04:680][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2014.10.28-18.47.04:779][678]Cmd: DELETE
+[2014.10.28-18.47.04:779][678]Cmd: ACTOR DELETE
+[2014.10.28-18.47.04:780][678]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.04:818][678]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2014.10.28-18.47.06:305][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2014.10.28-18.47.06:532][712]Cmd: DELETE
+[2014.10.28-18.47.06:532][712]Cmd: ACTOR DELETE
+[2014.10.28-18.47.06:534][712]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.06:593][712]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2014.10.28-18.47.07:390][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube18)
+[2014.10.28-18.47.07:563][732]Cmd: DELETE
+[2014.10.28-18.47.07:563][732]Cmd: ACTOR DELETE
+[2014.10.28-18.47.07:564][732]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.07:603][732]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2014.10.28-18.47.08:526][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2014.10.28-18.47.08:952][760]Cmd: DELETE
+[2014.10.28-18.47.08:953][760]Cmd: ACTOR DELETE
+[2014.10.28-18.47.08:954][760]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.09:011][760]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2014.10.28-18.47.15:151][903]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.15:205][903]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2014.10.28-18.47.16:381][930]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.16:417][930]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2014.10.28-18.47.17:377][954]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.28-18.47.17:411][954]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2014.10.28-18.47.20:726][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.28-18.47.20:818][ 31]LogSavePackage: Save=49.574444ms
+[2014.10.28-18.47.20:818][ 31]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/Example_Map35B655554F5730768259B388B92AFD3A.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Maps/Example_Map.umap'
+[2014.10.28-18.47.20:860][ 31]LogFileHelpers: Saving map 'Example_Map' took 0.393
+[2014.10.28-18.47.22:077][ 63]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.47.22:077][ 63]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:47:22 AM)
+[2014.10.28-18.47.22:134][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056913s)
+[2014.10.28-18.47.22:136][ 63]LogPlayLevel: PIE: World Init took: (0.002010s)
+[2014.10.28-18.47.22:136][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.059329s)
+[2014.10.28-18.47.22:172][ 63]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.47.22:174][ 63]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.47.22:175][ 63]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.47.22
+[2014.10.28-18.47.22:175][ 63]LogWorld: Bringing up level for play took: 0.001693
+[2014.10.28-18.47.22:177][ 63]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.147
+[2014.10.28-18.47.25:688][199]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0ED405760
+[2014.10.28-18.47.27:454][243]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor9)
+[2014.10.28-18.47.28:537][269]Cmd: DELETE
+[2014.10.28-18.47.28:537][269]Cmd: ACTOR DELETE
+[2014.10.28-18.47.28:540][269]LogEditorActor: Deleted Actor: TextRenderActor
+[2014.10.28-18.47.28:582][269]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2014.10.28-18.47.31:233][337]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.47.31:234][337]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:47:31 AM)
+[2014.10.28-18.47.31:293][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058943s)
+[2014.10.28-18.47.31:295][337]LogPlayLevel: PIE: World Init took: (0.001911s)
+[2014.10.28-18.47.31:295][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.061304s)
+[2014.10.28-18.47.31:330][337]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.47.31:332][337]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.47.31:333][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.47.31
+[2014.10.28-18.47.31:333][337]LogWorld: Bringing up level for play took: 0.001386
+[2014.10.28-18.47.31:335][337]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.695
+[2014.10.28-18.47.43:419][831]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0ED404D60
+[2014.10.28-18.47.45:149][874]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.47.45:149][874]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:47:45 AM)
+[2014.10.28-18.47.45:200][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051093s)
+[2014.10.28-18.47.45:201][874]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2014.10.28-18.47.45:202][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.052464s)
+[2014.10.28-18.47.45:236][874]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.47.45:238][874]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.47.45:239][874]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.47.45
+[2014.10.28-18.47.45:239][874]LogWorld: Bringing up level for play took: 0.001580
+[2014.10.28-18.47.45:241][874]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.789
+[2014.10.28-18.48.06:608][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0ED407060
+[2014.10.28-18.48.31:425][355]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.10.28-18.48.55:288][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_18) Not registered. Aborting.
+[2014.10.28-18.48.55:288][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.10.28-18.48.55:685][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.28-18.48.55:756][930]LogSavePackage: Save=39.058445ms
+[2014.10.28-18.48.55:756][930]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/Example_MapF6C5F19C40A1CC014F43859C89AD8541.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Maps/Example_Map.umap'
+[2014.10.28-18.48.55:792][930]LogFileHelpers: Saving map 'Example_Map' took 0.394
+[2014.10.28-18.49.04:447][123]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.49.04:448][123]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:49:04 AM)
+[2014.10.28-18.49.04:502][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054534s)
+[2014.10.28-18.49.04:503][123]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2014.10.28-18.49.04:504][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.055818s)
+[2014.10.28-18.49.04:539][123]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.49.04:540][123]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.49.04:542][123]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.49.04
+[2014.10.28-18.49.04:542][123]LogWorld: Bringing up level for play took: 0.001906
+[2014.10.28-18.49.04:544][123]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.514
+[2014.10.28-18.49.25:840][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D08AA4E340
+[2014.10.28-18.49.28:775][104]LogEditorViewport: Clicking Background
+[2014.10.28-18.49.30:893][152]LogEditorViewport: Clicking on Actor (LMB): Starting_Platform_C (Starting_Platform)
+[2014.10.28-18.49.36:288][279]Cmd: DELETE
+[2014.10.28-18.49.36:288][279]Cmd: ACTOR DELETE
+[2014.10.28-18.49.36:290][279]LogEditorActor: Deleted Actor: Brush
+[2014.10.28-18.49.36:379][279]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2014.10.28-18.49.37:262][299]LogEditorViewport: Clicking on Actor (LMB): Starting_Platform_C (Starting_Platform)
+[2014.10.28-18.49.52:361][648]LogEditorViewport: Clicking on Actor (LMB): Starting_Platform_C (Starting_Platform)
+[2014.10.28-18.50.13:843][132]LogEditorViewport: Clicking on Actor (LMB): Starting_Platform_C (Starting_Platform)
+[2014.10.28-18.50.13:927][133]LogEditorViewport: Clicking on Actor (double click): Starting_Platform_C (Starting_Platform)
+[2014.10.28-18.53.27:932][591]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.53.27:933][591]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:53:27 AM)
+[2014.10.28-18.53.27:971][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037704s)
+[2014.10.28-18.53.27:972][591]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2014.10.28-18.53.27:972][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.038935s)
+[2014.10.28-18.53.28:008][591]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.53.28:009][591]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.53.28:011][591]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.53.28
+[2014.10.28-18.53.28:011][591]LogWorld: Bringing up level for play took: 0.001945
+[2014.10.28-18.53.28:013][591]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.017
+[2014.10.28-18.53.45:028][326]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D083C8F420
+[2014.10.28-18.53.51:121][452]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.28-18.53.51:175][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.28-18.53.51:264][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.28-18.53.51:264][452]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.28-18.53.51:268][452]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.28-18.53.51:301][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.10.28-18.53.58:229][568]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.28-18.54.08:966][743]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.28-18.54.14:650][842]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.28-18.54.20:306][953]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2014.10.28-18.54.20:306][953]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.28-18.54.20:306][953]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.28-18.54.24:944][ 50]LogEditorViewport: Clicking on Actor (LMB): Starting_Platform_C (Starting_Platform)
+[2014.10.28-18.54.25:563][ 62]LogEditorViewport: Clicking on Actor (LMB): LightBall_C (LightBall)
+[2014.10.28-18.55.05:941][863]Cmd: EDCALLBACK SURFPROPS
+[2014.10.28-18.55.20:673][395]LogRenderer:Warning: Reallocating scene render targets to support 928x688.
+[2014.10.28-18.55.22:664][431]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.28-18.55.58:948][409]LogRenderer:Warning: Reallocating scene render targets to support 944x688.
+[2014.10.28-18.57.36:063][105]LogMaterialEditor: Applying material CompleteBlack
+[2014.10.28-18.57.36:580][105]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.28-18.57.36:626][105]LogMaterial: Missing cached shader map for material CompleteBlack, compiling.
+[2014.10.28-18.57.36:643][105]LogMaterial: Missing cached shader map for material CompleteBlack, compiling.
+[2014.10.28-18.57.36:648][105]LogMaterial: 0.002476 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.28-18.57.37:702][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.10.28-18.57.37:702][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_19) Not registered. Aborting.
+[2014.10.28-18.57.38:314][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.28-18.57.38:456][123]LogSavePackage: Save=66.169960ms
+[2014.10.28-18.57.38:456][123]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/Example_MapC13896E04D009E4870188EB333E59C10.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Maps/Example_Map.umap'
+[2014.10.28-18.57.38:507][123]LogFileHelpers: Saving map 'Example_Map' took 0.650
+[2014.10.28-18.57.41:818][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CompleteBlack" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Materials/CompleteBlack.uasset" SILENT=true
+[2014.10.28-18.57.42:225][123]LogSavePackage: Save=394.633453ms
+[2014.10.28-18.57.42:225][123]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/CompleteBlackF1901C4149A0D4AD5700659C623B217A.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Materials/CompleteBlack.uasset'
+[2014.10.28-18.57.42:242][123]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2014.10.28-18.57.42:242][123]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.28-18.57.42:242][123]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.28-18.57.45:033][176]LogEditorViewport: Clicking on Actor (LMB): LightBall_C (LightBall)
+[2014.10.28-18.57.55:283][373]Cmd: SELECT NONE
+[2014.10.28-18.57.57:913][424]LogEditorViewport: Clicking on Actor (LMB): Starting_Platform_C (Starting_Platform)
+[2014.10.28-18.58.06:844][583]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.28-18.58.10:009][634]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.28-18.58.10:135][636]LogMaterialEditor: Applying material CompleteBlack
+[2014.10.28-18.58.10:861][636]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.28-18.58.10:931][636]LogMaterial: Missing cached shader map for material CompleteBlack, compiling.
+[2014.10.28-18.58.10:946][636]LogMaterial: Missing cached shader map for material CompleteBlack, compiling.
+[2014.10.28-18.58.10:953][636]LogMaterial: 0.001981 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.28-18.58.11:874][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.28-18.58.12:000][642]LogSavePackage: Save=69.623688ms
+[2014.10.28-18.58.12:000][642]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/Example_Map3136C03542C6AB803F229FBAD49DF194.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Maps/Example_Map.umap'
+[2014.10.28-18.58.12:051][642]LogFileHelpers: Saving map 'Example_Map' took 0.605
+[2014.10.28-18.58.15:020][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CompleteBlack" FILE="../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Materials/CompleteBlack.uasset" SILENT=true
+[2014.10.28-18.58.15:437][642]LogSavePackage: Save=408.116089ms
+[2014.10.28-18.58.15:437][642]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Saved/CompleteBlackE0CFB3734024E30F6D0B7C8F79E70683.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Unlit/Content/Materials/CompleteBlack.uasset'
+[2014.10.28-18.58.15:455][642]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2014.10.28-18.58.15:455][642]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.28-18.58.15:455][642]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.28-18.58.33:105][958]LogEditorViewport: Clicking on Actor (LMB): LightBall_C (LightBall)
+[2014.10.28-18.58.50:736][305]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.58.50:736][305]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:58:50 AM)
+[2014.10.28-18.58.50:800][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064093s)
+[2014.10.28-18.58.50:802][305]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2014.10.28-18.58.50:802][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.065872s)
+[2014.10.28-18.58.50:836][305]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.58.50:837][305]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.58.50:840][305]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.58.50
+[2014.10.28-18.58.50:841][305]LogWorld: Bringing up level for play took: 0.002946
+[2014.10.28-18.58.50:843][305]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.812
+[2014.10.28-18.59.00:862][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D08FCB7740
+[2014.10.28-18.59.08:846][919]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.59.08:846][919]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:59:08 AM)
+[2014.10.28-18.59.08:907][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061342s)
+[2014.10.28-18.59.08:910][919]LogPlayLevel: PIE: World Init took: (0.002532s)
+[2014.10.28-18.59.08:910][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.064275s)
+[2014.10.28-18.59.08:944][919]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.59.08:946][919]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.59.08:948][919]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.59.08
+[2014.10.28-18.59.08:948][919]LogWorld: Bringing up level for play took: 0.002581
+[2014.10.28-18.59.08:951][919]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.92
+[2014.10.28-18.59.25:041][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D08FCB53A0
+[2014.10.28-18.59.33:450][909]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.59.33:450][909]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:59:33 AM)
+[2014.10.28-18.59.33:509][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058372s)
+[2014.10.28-18.59.33:510][909]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2014.10.28-18.59.33:510][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.059789s)
+[2014.10.28-18.59.33:541][909]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.59.33:542][909]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.59.33:544][909]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.59.33
+[2014.10.28-18.59.33:544][909]LogWorld: Bringing up level for play took: 0.002317
+[2014.10.28-18.59.33:546][909]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.484
+[2014.10.28-18.59.37:951][113]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D08FCB45E0
+[2014.10.28-18.59.49:259][346]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.28-18.59.49:259][346]PIE: New page: PIE session: Example_Map (Oct 28, 2014, 10:59:49 AM)
+[2014.10.28-18.59.49:324][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064197s)
+[2014.10.28-18.59.49:325][346]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2014.10.28-18.59.49:325][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.065717s)
+[2014.10.28-18.59.49:357][346]LogWorld: Game class is 'MyGame_C'
+[2014.10.28-18.59.49:359][346]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.28-18.59.49:361][346]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.28-14.59.49
+[2014.10.28-18.59.49:362][346]LogWorld: Bringing up level for play took: 0.002978
+[2014.10.28-18.59.49:364][346]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.666
+[2014.10.28-19.00.34:701][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D085DD3D80
+[2014.10.28-19.00.37:259][680]Cmd: DELETE
+[2014.10.28-19.00.37:259][680]Cmd: ACTOR DELETE
+[2014.10.28-19.00.37:262][680]LogEditorActor: Deleted Actor: Brush
+[2014.10.28-19.00.37:345][680]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2014.10.28-19.00.41:890][781]Cmd: TRANSACTION UNDO
+[2014.10.28-19.00.41:890][781]LogEditorTransaction: Undo Delete Actors
+[2014.10.28-19.00.42:063][781]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.28-19.00.42:467][781]LogWindows:Error: appError called: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Runtime\Core\Public\Containers\Array.h] [Line: 536]
+Array index out of bounds: 24 from an array of size -572662307
+Stack:
+Address = 0x915f5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x91478615 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x833dd0de (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x833c7915 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x833e874c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x83285360 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x83400834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x833d6972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x913b7002 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x913b718d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x9e74c353 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0x9e74c7e9 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0x915f2ca6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x915ec26d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xb2f816ad (filename not found) [in C:\Windows\system32\KERNEL32.DLL]
+Address = 0xb5604409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xb5604409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.28-19.00.42:467][781]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.10.28-19.00.42:467][781]LogCrashTracker: 
+
+
+[2014.10.28-19.00.43:299][781]LogWindows:Error: appError called: Rendering thread exception:
+Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Runtime\Core\Public\Containers\Array.h] [Line: 536]
+Array index out of bounds: 24 from an array of size -572662307
+Stack:
+Address = 0x915f5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x91478615 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x833dd0de (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x833c7915 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x833e874c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x83285360 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x83400834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x833d6972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x913b7002 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x913b718d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x9e74c353 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0x9e74c7e9 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0x915f2ca6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x915ec26d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xb2f816ad (filename not found) [in C:\Windows\system32\KERNEL32.DLL]
+Address = 0xb5604409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xb5604409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+
+
+[2014.10.28-19.00.43:300][781]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.10.28-19.00.43:300][781]LogCrashTracker: 
+
+
+[2014.10.28-19.00.43:300][781]LogWindows: === Critical error: ===
+
+
+[2014.10.28-19.00.43:300][781]LogWindows: Rendering thread exception:
+Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Runtime\Core\Public\Containers\Array.h] [Line: 536]
+Array index out of bounds: 24 from an array of size -572662307
+Stack:
+Address = 0x915f5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x91478615 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x833dd0de (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x833c7915 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x833e874c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x83285360 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x83400834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x833d6972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0x913b7002 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x913b718d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x9e74c353 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0x9e74c7e9 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-RenderCore.dll]
+Address = 0x915f2ca6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x915ec26d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xb2f816ad (filename not found) [in C:\Windows\system32\KERNEL32.DLL]
+Address = 0xb5604409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xb5604409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+
+
+
+
+[2014.10.28-19.00.43:390][781]LogExit: Executing StaticShutdownAfterError
+[2014.10.28-19.00.43:407][781]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.10.28-19.00.43:407][781]Log file closed, 10/28/14 15:00:43
