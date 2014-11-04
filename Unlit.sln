@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unlit", "Intermediate\ProjectFiles\Unlit.vcxproj", "{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugGame Editor|Android = DebugGame Editor|Android
+		DebugGame Editor|Windows = DebugGame Editor|Windows
+		DebugGame|Android = DebugGame|Android
+		DebugGame|Windows = DebugGame|Windows
+		Development Editor|Android = Development Editor|Android
+		Development Editor|Windows = Development Editor|Windows
+		Development|Android = Development|Android
+		Development|Windows = Development|Windows
+		Shipping|Android = Shipping|Android
+		Shipping|Windows = Shipping|Windows
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.DebugGame Editor|Android.ActiveCfg = DebugGame_RocketGame|Win32
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.DebugGame Editor|Windows.ActiveCfg = DebugGame_Editor|x64
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.DebugGame Editor|Windows.Build.0 = DebugGame_Editor|x64
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.DebugGame|Android.ActiveCfg = DebugGame_RocketGame|Tegra-Android
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.DebugGame|Android.Build.0 = DebugGame_RocketGame|Tegra-Android
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.DebugGame|Windows.ActiveCfg = DebugGame_RocketGame|x64
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.DebugGame|Windows.Build.0 = DebugGame_RocketGame|x64
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Development Editor|Android.ActiveCfg = Development_RocketGame|Win32
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Development Editor|Windows.ActiveCfg = Development_Editor|x64
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Development Editor|Windows.Build.0 = Development_Editor|x64
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Development|Android.ActiveCfg = Development_RocketGame|Tegra-Android
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Development|Android.Build.0 = Development_RocketGame|Tegra-Android
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Development|Windows.ActiveCfg = Development_RocketGame|x64
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Development|Windows.Build.0 = Development_RocketGame|x64
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Shipping|Android.ActiveCfg = Shipping_RocketGame|Tegra-Android
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Shipping|Android.Build.0 = Shipping_RocketGame|Tegra-Android
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Shipping|Windows.ActiveCfg = Shipping_RocketGame|Win32
+		{DD0B3B7C-EAB6-4AE2-A9A5-81FCAE4628CD}.Shipping|Windows.Build.0 = Shipping_RocketGame|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
