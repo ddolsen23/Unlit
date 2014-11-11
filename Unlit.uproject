@@ -1,6 +1,13 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.4",
+	"EngineAssociation": "4.5",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Unlit",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
