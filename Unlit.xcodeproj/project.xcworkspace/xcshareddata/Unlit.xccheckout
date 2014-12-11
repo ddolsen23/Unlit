@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C8F041F0-5678-4352-9BF6-7FA1587C6590</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Unlit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3189FB48-1B41-4700-AB65-1A06B6A24999</key>
+		<string>https://github.com/ddolsen23/Unlit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Unlit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3189FB48-1B41-4700-AB65-1A06B6A24999</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ddolsen23/Unlit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3189FB48-1B41-4700-AB65-1A06B6A24999</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3189FB48-1B41-4700-AB65-1A06B6A24999</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Unlit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

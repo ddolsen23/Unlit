@@ -39,6 +39,9 @@ class AUnlitCharacter : public ACharacter
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	class UAnimMontage* FireAnimation;
+    
+    UFUNCTION(BlueprintCallable, Category="ForcedInput")
+    void ForceFire();
 
 protected:
 

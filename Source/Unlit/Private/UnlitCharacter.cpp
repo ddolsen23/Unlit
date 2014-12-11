@@ -66,6 +66,11 @@ void AUnlitCharacter::SetupPlayerInputComponent(class UInputComponent* InputComp
 	InputComponent->BindAxis("LookUpRate", this, &AUnlitCharacter::LookUpAtRate);
 }
 
+void AUnlitCharacter::ForceFire()
+{
+    OnFire();
+}
+
 void AUnlitCharacter::OnFire()
 {
 	// try and fire a projectile
